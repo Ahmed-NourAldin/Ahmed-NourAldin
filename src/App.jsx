@@ -2,6 +2,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Projects";
 import { useEffect, useState } from 'react';
 import LineGradient from "./components/LineGradient";
 import useMediaQuery from "./hooks/useMediaQuery";
@@ -28,15 +29,19 @@ function App ()
     <div className='text-white app bg-deep-blue flex flex-col flex-wrap'>
       <Navbar isTopOfPage={ isTopOfPage } selectPage={ selectedPage } setSelectedPage={ setSelectedPage } />
       {/* Above Medium Screens */ }
-      <div className='w-5/6 mx-auto md:h-full'>
+      <div className='w-5/6 mx-auto md:h-full mb-56'>
         { isAboveMediumScreens && (
-          <DotGroup selectedPage={ selectedPage } setSelectedPage={ selectedPage } />
+          <DotGroup selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
         ) }
         <Landing setSelectedPage={ setSelectedPage } />
       </div>
       <LineGradient />
       <div className='w-5/6 mx-auto md:h-full'>
-          <MySkills />
+        <MySkills />
+      </div>
+      <LineGradient />
+      <div>
+        <Projects />
       </div>
     </div>
   );

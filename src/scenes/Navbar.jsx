@@ -21,7 +21,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
     // console.log(isTopOfPage)
     const [isMenuToggled, setIsMenuToggled] = useState(false);
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
-    const navBarBackground = isTopOfPage ? "" : "bg-rose-300";
+    const navBarBackground = isTopOfPage ? "" : "bg-gradient-rainblue";
 
 
     // console.log(isAboveSmallScreens);
@@ -42,14 +42,14 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
                         <Link page="Testimonials" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
                         <Link page="Contact" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
                     </div>
-                    : (<button className='rounded-full p-2 bg-rose-700 '
+                    : (<button className='rounded-full w-12 h-12 p-0 flex items-center bg-gradient-rainbow '
                         onClick={ () => setIsMenuToggled(!isMenuToggled) }>
-                        <img src="src/react.svg" alt="menu-icon" />
+                        <img src="src/assets/logo.png"  alt="menu-icon" />
                     </button>) }
 
                 {/* Mobile Menu Pop up */ }
                 { !isAboveSmallScreens && isMenuToggled && (
-                    <div className='fixed right-0 bottom-0 h-full bg-blue w-[300px] '>
+                    <div className='fixed right-0 bottom-0 h-full bg-gradient-to-br  from-yellow  to-fuchsia-500 w-[300px] '>
                         {/* Close Menu Icon */ }
                         <div className='flex justify-end p-12 '>
                             <button
