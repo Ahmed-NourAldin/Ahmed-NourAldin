@@ -97,7 +97,7 @@ const MySkills = () =>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        I'm actually super fast at delivering, for real this my best treat so far
+                        I'm actually super fast at delivering work, for real this my best treat so far
                     </p>
                 </motion.div>
             </div>
