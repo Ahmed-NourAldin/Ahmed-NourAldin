@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
 import closeIcon from "../assets/close-icon.svg"
+import menu from "../assets/logo.png"
 
 const Link = ({ page, selectedPage, setSelectedPage }) =>
 {
@@ -45,7 +46,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
                     </div>
                     : (<button className='rounded-full w-12 h-12 p-0 flex items-center bg-gradient-rainbow '
                         onClick={ () => setIsMenuToggled(!isMenuToggled) }>
-                        <img src="assets/logo.png"  alt="menu-icon" />
+                        <img src={menu}  alt="menu-icon" />
                     </button>) }
 
                 {/* Mobile Menu Pop up */ }
