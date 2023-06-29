@@ -45,7 +45,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
                     </div>
                     : (<button className='rounded-full w-12 h-12 p-0 flex items-center bg-gradient-rainbow '
                         onClick={ () => setIsMenuToggled(!isMenuToggled) }>
-                        <img src="src/assets/logo.png"  alt="menu-icon" />
+                        <img src="assets/logo.png"  alt="menu-icon" />
                     </button>) }
 
                 {/* Mobile Menu Pop up */ }

@@ -54,7 +54,7 @@ const Contact = () =>
                         hidden: { opacity: 0, y: 50 },
                         visible: { opacity: 1, y: 0 }
                     } }>
-                    <img className="max-h-[500px] mt-[-7em] mr-[-7em]" src={contactImg} alt="contact" />
+                    <img className="max-h-[500px] md:mt-[-7em] md:mr-[-7em]" src={contactImg} alt="contact" />
                 </motion.div>
                 <motion.div
                     className="basis-1/2 mt-10 md:mt-0 "

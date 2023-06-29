@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Testimonials = () =>
 {
-    const testimonialStyles = `mx-auto relative max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 before:absolute before:top-[-120px] before:-ml-[110px] w-[400px] before:left-1/2 before:border before:rounded-full before:border-4`;
+    const testimonialStyles = `mx-auto relative max-w-[400px] md:h-[350px] flex flex-col justify-end p-16 mt-48 before:absolute before:top-[-120px] before:-ml-[110px] md:w-[400px] before:left-1/2 before:border before:rounded-full before:border-4`;
 
     return (
         <section id="testimonials" className="pt-32 pb-16 ">
