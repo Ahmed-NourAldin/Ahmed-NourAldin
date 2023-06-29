@@ -1,4 +1,4 @@
-import LinerGradient from "../components/LineGradient";
+import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 
@@ -22,9 +22,9 @@ const MySkills = () =>
                     <p className="font-playfair font-semibold text-4xl mb-5">
                         My <span className="text-red">Skills</span>
                     </p>
-                    <LinerGradient width="w-1/3" />
+                    <LineGradient width="sm:w-1/3" />
                     <p className="mt-10 mb-7">
-                        I wast certified from many different well known organizations; like Harvard education institute, One Million Arab coders (organization by the UAE government), and Egypt FWD.
+                        I wast certified from many different well known organizations; like Harvard education institute, One Million Arab Coders (by the UAE government), and Egypt FWD.
                     </p>
                 </motion.div>
                 <div className="mt-16 md:mt-[-20px]">
@@ -41,7 +41,7 @@ const MySkills = () =>
             {/* Skills */ }
             <div className="md:flex md:justify-between mt-16 gap-32 ">
                 <motion.div
-                    className='mt-10 w-1/3'
+                    className='mt-10 sm:w-1/3'
                     initial="hidden" whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
                     transition={ { delay: 0.2, duration: 0.5 } }
@@ -61,7 +61,7 @@ const MySkills = () =>
                     </p>
                 </motion.div>
                 <motion.div
-                    className='mt-10 w-1/3'
+                    className='mt-10 sm:w-1/3'
                     initial="hidden" whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
                     transition={ { delay: 0.2, duration: 0.5 } }
@@ -81,7 +81,7 @@ const MySkills = () =>
                     </p>
                 </motion.div>
                 <motion.div
-                    className='mt-10 w-1/3'
+                    className='mt-10 sm:w-1/3'
                     initial="hidden" whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
                     transition={ { delay: 0.2, duration: 0.5 } }
