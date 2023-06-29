@@ -27,7 +27,9 @@ export default {
         opensans: ["Open Sans", "sans-serif"]
       },
       content: {
-        something:"url('./assets/something.png')",
+        person1: "url('https://github.com/ed-roh/react-portfolio/blob/master/public/assets/person-1.png?raw=true')",
+        person2: "url('https://github.com/ed-roh/react-portfolio/blob/master/public/assets/person-3.png?raw=true')",
+        person3: "url('https://github.com/ed-roh/react-portfolio/blob/master/public/assets/person-2.png?raw=true')",
         brush: "url('./assets/brush.png')",
       },
       screens: {

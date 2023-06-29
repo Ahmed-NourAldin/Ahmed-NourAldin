@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Testimonials = () =>
 {
-    const testimonialStyles = `mx-auto relative max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 `;
+    const testimonialStyles = `mx-auto relative max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 before:absolute before:top-[-120px] before:-ml-[110px] w-[400px] before:left-1/2 before:border before:rounded-full before:border-4`;
 
     return (
         <section id="testimonials" className="pt-32 pb-16 ">
@@ -29,7 +29,7 @@ const Testimonials = () =>
             {/* TESTIMONIALS */ }
             <div className="md:flex md:justify-between gap-8 ">
                 <motion.div
-                    className={`bg-blue ${testimonialStyles} before:content-person1`}
+                    className={`bg-blue ${testimonialStyles} before:content-person1 before:scale-90`}
                     initial="hidden"
                     whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
@@ -39,10 +39,10 @@ const Testimonials = () =>
                         visible: { opacity: 1, scale: 1 }
                     } }>
                     <p className="font-playfair text-6xl">“</p>
-                    <p className="text center text-xl">Good review</p>
+                    <p className="text center text-xl">Made the app at only two weeks</p>
                 </motion.div>
                 <motion.div
-                    className={`bg-red ${testimonialStyles} before:content-person2`}
+                    className={`bg-red ${testimonialStyles} before:content-person2 before:scale-90`}
                     initial="hidden"
                     whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
@@ -52,10 +52,10 @@ const Testimonials = () =>
                         visible: { opacity: 1, scale: 1 }
                     } }>
                     <p className="font-playfair text-6xl">“</p>
-                    <p className="text center text-xl">Good review</p>
+                    <p className="text center text-xl">Was so patient with all the edits I asked for</p>
                 </motion.div>
                 <motion.div
-                    className={`bg-yellow ${testimonialStyles} before:content-person3`}
+                    className={`bg-yellow ${testimonialStyles} before:content-person3 before:scale-90`}
                     initial="hidden"
                     whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
@@ -65,7 +65,7 @@ const Testimonials = () =>
                         visible: { opacity: 1, scale: 1 }
                     } }>
                     <p className="font-playfair text-6xl">“</p>
-                    <p className="text center text-xl">Good review</p>
+                    <p className="text center text-xl">I don't remember what she said</p>
                 </motion.div>
             </div>
         </section>
