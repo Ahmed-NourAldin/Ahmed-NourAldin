@@ -1,5 +1,13 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import project1 from "../assets/project-1.png";
+import project2 from "../assets/project-2.png";
+import project3 from "../assets/project-3.png";
+import project4 from "../assets/project-4.png";
+import project5 from "../assets/project-5.png";
+import project6 from "../assets/project-6.png";
+import project7 from "../assets/project-7.png";
+
 
 
 const container = {
@@ -14,18 +22,18 @@ const projectVariant = {
     visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, description }) =>
+const Project = ({ title, description, link }) =>
 {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-yellow z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-    const projectTitle = title.split(" ").join("-").toLowerCase();
-
+    const projectTitle = title.split(" ").join("").toLowerCase();
     return (
         <motion.div variants={ projectVariant } className="relative sm:m-2">
             <div className={ overlayStyles }>
-                <p className="text-2xl font-playfair">{title}</p>
-                <p className="mt-7 ">{description}</p>
+                <p className="text-2xl font-playfair">{ title }</p>
+                <p className="mt-7 ">{ description }</p>
             </div>
-            <img className="sm:w-[400px] sm:h-[400px] sm:p-0 sm:max-h-[400px] min-w-full p-1 max-h-[200px] " src={`src/assets/${projectTitle}.png`} alt={projectTitle} />
+            
+            <img className="sm:w-[400px] sm:h-[400px] sm:p-0 sm:max-h-[400px] min-w-full p-1 max-h-[200px] " src={link} alt={ projectTitle } />
         </motion.div>
     );
 };
@@ -68,19 +76,19 @@ const Projects = () =>
                     <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold m-2">
                         BEAUTIFUL USER INTERFACES
                     </div>
-                    <Project title="Project 1" description="A test project"/>
-                    <Project title="Project 2" description="A Company for Digital Transformation"/>
+                    <Project title="Project 1" link={project1} description="A test project" />
+                    <Project title="Project 2" link={project2} description="A Company for Digital Transformation" />
 
                     {/* ROW 2 */ }
-                    <Project title="Project 3" description="Trading App"/>
-                    <Project title="Project 4" description="E-commerce website for clothes"/>
-                    <Project title="Project 5" description="Band Merchandise website"/>
+                    <Project title="Project 3" link={project3} description="Trading App" />
+                    <Project title="Project 4" link={project4} description="E-commerce website for clothes" />
+                    <Project title="Project 5" link={project5} description="Band Merchandise website" />
 
                     {/* ROW 3 */ }
-                    <Project title="Project 6" description="Creative Agency"/>
-                    <Project title="Project 7" description="Security App that I designed"/>
+                    <Project title="Project 6" link={project6} description="Creative Agency" />
+                    <Project title="Project 7" link={project7} description="Security App that I designed" />
                     <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold m-2">
-                        SMOOTH USER EXPERIENCE 
+                        SMOOTH USER EXPERIENCE
                     </div>
                 </motion.div>
             </div>

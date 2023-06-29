@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
+import skillsImg from "../assets/skills.jpg"
 
 const MySkills = () =>
 {
@@ -30,10 +31,10 @@ const MySkills = () =>
                 <div className="mt-16 md:mt-[-20px]">
                     { isAboveMediumScreens ?
                         (<div className="relative z-0  before:absolute before:-top-[-10px] before:-left-10 md:max-w-[1200px]  before:w-full  md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1] ">
-                            <img className='z-10' src="src/assets/skills.jpg" alt="skills" />
+                            <img className='z-10' src={skillsImg} alt="skills" />
                         </div>)
                         :
-                        <img className='z-10' src="src/assets/skills.jpg" alt="skills" />
+                        <img className='z-10' src={skillsImg} alt="skills" />
                     }
                 </div>
             </div>

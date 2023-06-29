@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
+import closeIcon from "../assets/close-icon.svg"
 
 const Link = ({ page, selectedPage, setSelectedPage }) =>
 {
@@ -54,7 +55,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
                         <div className='flex justify-end p-12 '>
                             <button
                                 onClick={ () => setIsMenuToggled(!isMenuToggled) }>
-                                <img src="src/assets/close-icon.svg" alt="menu-icon" width={ 20 } height={ 20 } />
+                                <img src={closeIcon} alt="menu-icon" width={ 20 } height={ 20 } />
                             </button>
                         </div>
 

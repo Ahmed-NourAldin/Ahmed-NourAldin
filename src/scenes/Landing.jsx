@@ -3,6 +3,9 @@ import SocialMediaIcons from "../components/SocialMediaIcons"
 import useMediaQuery from '../hooks/useMediaQuery';
 import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import profileImg from "../assets/profile2.png"
+
+
 
 const Landing = ({ setSelectedPage }) =>
 {
@@ -13,12 +16,13 @@ const Landing = ({ setSelectedPage }) =>
             {/* Image Section */ }
             <div className="z-10 md:ml-[20vw]  flex justify-center md:mt-4 md:order-2 basis-3/5">
                 { isAboveMediumScreens ? (<div className="relative z-0 ml-20 before:absolute before:-top-[-20px] before:-left-10 before:rounded-t-[400px] before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1] ">
-                    <img className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:mx-w-[600px] min-w-[400px] scale-125' src="src/assets/profile2.png" alt="profile image" />
+                    <img className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:mx-w-[600px] min-w-[400px] scale-125' src={profileImg} alt="profile image" />
                 </div>) :
                     (<div>
-                        <img className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:mx-w-[600px] mb-20' src="src/assets/profile2.png" alt="profile image" />
+                        <img className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:mx-w-[600px] mb-20' src={profileImg} alt="profile image" />
                     </div>) }
             </div>
+            
             {/* Main Section */ }
             <div className="z-30 mt-12 basis-2/5 md:mt-32 ">
                 {/* Headings */ }
