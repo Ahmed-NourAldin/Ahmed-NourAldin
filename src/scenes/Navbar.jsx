@@ -20,7 +20,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) =>
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
 {
-    // console.log(isTopOfPage)
+    // console.log(selectedPage)
     const [isMenuToggled, setIsMenuToggled] = useState(false);
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
     const navBarBackground = isTopOfPage ? "" : "bg-gradient-rainblue";
@@ -39,7 +39,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) =>
                         <Link page="Home" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
                         <Link page="Skills" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
                         <Link page="Projects" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
-                        <Link page="Webflow" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
+                        <Link page="Webflow" selectedPage={ selectedPage} setSelectedPage={ setSelectedPage } />
                         <Link page="Shopify" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
                         <Link page="Testimonials" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />
                         <Link page="Contact" selectedPage={ selectedPage } setSelectedPage={ setSelectedPage } />

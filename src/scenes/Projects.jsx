@@ -42,6 +42,8 @@ const Projects = () =>
 {
     return (
         <section id="projects" className="pt-48 pb-48">
+            <div id="webflow"/>
+            <div id="shopify"/>
             <motion.div
                 className='md:w-2/4 mx-auto text-center'
                 initial="hidden" whileInView="visible"
