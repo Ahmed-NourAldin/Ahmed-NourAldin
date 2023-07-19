@@ -1,7 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import skillsImg from "../assets/skills.jpg"
+import skillsImg from "../assets/skills.jpg";
 
 const MySkills = () =>
 {
@@ -12,7 +12,7 @@ const MySkills = () =>
             {/* Header and Image Section */ }
             <div className="md:flex  md:w-full md:gap-16 md:mt-20 md:justify-between">
                 <motion.div
-                    className='md:order-2'
+                    className='md:order-2 md:mt-[-25px]'
                     initial="hidden" whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
                     transition={ { duration: 0.5 } }
@@ -24,17 +24,27 @@ const MySkills = () =>
                         My <span className="text-red">Skills</span>
                     </p>
                     <LineGradient width="sm:w-1/3" />
-                    <p className="mt-10 mb-7">
-                        I wast certified from many different well known organizations; like Harvard education institute, One Million Arab Coders (by the UAE government), and Egypt FWD.
+                    <p className="mt-10 mb-7 ">
+                        As a seasoned Front-end Developer with extensive experience in building Web and Mobile applications, including E-commerce solutions, I am dedicated to helping clients overcome their digital challenges. With an unwavering focus on client needs, I bring a perfect blend of technical expertise and creative problem-solving skills to every project.
+                        <br/><br/>
+
+                        Throughout my career, I have crafted seamless user experiences that drive engagement and conversions. From intuitive interfaces to responsive designs, I strive to make the digital world an engaging and visually captivating place. My proficiency in HTML, CSS, JavaScript, and various frameworks allows me to turn ideas into reality while ensuring optimal performance and cross-platform compatibility.
+                        <br/><br/>
+
+                        I take pride in delivering high-quality solutions tailored to the unique requirements of each client. My ability to understand business objectives, combined with my attention to detail, ensures that every line of code serves a purpose. I follow industry best practices, adhering to clean coding standards, and employing modern technologies to build robust and scalable applications.
+                        <br/><br/>
+                        Whether it's a dynamic e-commerce platform, a user-friendly mobile app, or a captivating website, I am committed to bringing your vision to life. Collaborating closely with clients, I prioritize effective communication to ensure transparency and alignment throughout the development process.
+                        <br/><br/>
+                        Let's connect and discuss your project requirements. Together, we can embark on a journey of transforming your ideas into a digital masterpiece. Reach out today, and let's create something extraordinary.
                     </p>
                 </motion.div>
                 <div className="mt-16 md:mt-[-20px]">
                     { isAboveMediumScreens ?
-                        (<div className="relative z-0  before:absolute before:-top-[-10px] before:-left-10 md:max-w-[1200px]  before:w-full  md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1] ">
-                            <img className='z-10' src={skillsImg} alt="skills" />
+                        (<div className="relative z-0  before:absolute before:-top-[-10px] before:-left-10 md:min-w-[700px] md:max-w-[1200px]  before:w-full  md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1] ">
+                            <img className='z-10' src={ skillsImg } alt="skills" />
                         </div>)
                         :
-                        <img className='z-10' src={skillsImg} alt="skills" />
+                        <img className='z-10' src={ skillsImg } alt="skills" />
                     }
                 </div>
             </div>
