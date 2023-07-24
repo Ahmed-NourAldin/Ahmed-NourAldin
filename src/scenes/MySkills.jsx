@@ -25,17 +25,15 @@ const MySkills = () =>
                     </p>
                     <LineGradient width="sm:w-1/3" />
                     <p className="mt-10 mb-7 ">
-                        As a seasoned Front-end Developer with extensive experience in building Web and Mobile applications, including E-commerce solutions, I am dedicated to helping clients overcome their digital challenges. With an unwavering focus on client needs, I bring a perfect blend of technical expertise and creative problem-solving skills to every project.
-                        <br/><br/>
-
-                        Throughout my career, I have crafted seamless user experiences that drive engagement and conversions. From intuitive interfaces to responsive designs, I strive to make the digital world an engaging and visually captivating place. My proficiency in HTML, CSS, JavaScript, and various frameworks allows me to turn ideas into reality while ensuring optimal performance and cross-platform compatibility.
-                        <br/><br/>
-
-                        I take pride in delivering high-quality solutions tailored to the unique requirements of each client. My ability to understand business objectives, combined with my attention to detail, ensures that every line of code serves a purpose. I follow industry best practices, adhering to clean coding standards, and employing modern technologies to build robust and scalable applications.
-                        <br/><br/>
-                        Whether it's a dynamic e-commerce platform, a user-friendly mobile app, or a captivating website, I am committed to bringing your vision to life. Collaborating closely with clients, I prioritize effective communication to ensure transparency and alignment throughout the development process.
-                        <br/><br/>
-                        Let's connect and discuss your project requirements. Together, we can embark on a journey of transforming your ideas into a digital masterpiece. Reach out today, and let's create something extraordinary.
+                        As an experienced Webflow and Shopify designer, I have a proven track record of crafting captivating websites that leave a lasting impression on visitors. With a keen eye for detail and a passion for user-centric design, I specialize in creating visually stunning and intuitive interfaces that drive engagement and conversions.
+                        <br /><br />
+                        My expertise extends beyond aesthetics; I am well-versed in optimizing SEO strategies to ensure your website ranks higher on search engines and attracts more organic traffic. By leveraging the power of Webflow's flexible design capabilities, I create responsive and mobile-friendly websites that offer a seamless user experience across all devices.
+                        <br /><br />
+                        Additionally, I excel in seamlessly integrating Webflow websites with Shopify stores, providing a smooth and efficient e-commerce solution. Whether you're starting an online store from scratch or looking to enhance an existing one, I can help you achieve maximum profitability and customer satisfaction.
+                        <br /><br />
+                        Throughout my career, I have collaborated with clients from various industries, understanding their unique requirements and translating their visions into digital realities. I prioritize effective communication, ensuring that every step of the design process aligns with your brand identity and business objectives.
+                        <br /><br />
+                        Let's work together to elevate your online presence and take your business to new heights. Whether you need a visually captivating website or a seamless e-commerce platform, I am here to bring your ideas to life. Reach out today, and let's embark on a journey of creating an exceptional digital experience that resonates with your audience and drives success for your business.
                     </p>
                 </motion.div>
                 <div className="mt-16 md:mt-[-20px]">

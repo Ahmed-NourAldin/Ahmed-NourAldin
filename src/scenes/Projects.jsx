@@ -27,14 +27,14 @@ const Project = ({ title, description, link }) =>
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-yellow z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const projectTitle = title.split(" ").join("").toLowerCase();
     return (
-        <motion.div variants={ projectVariant } className="relative sm:m-2">
-            <div className={ overlayStyles }>
-                <p className="text-2xl font-playfair">{ title }</p>
-                <p className="mt-7 ">{ description }</p>
-            </div>
-            
-            <img className="sm:w-[400px] sm:h-[400px] sm:p-0 sm:max-h-[400px] min-w-full p-1 max-h-[200px] " src={link} alt={ projectTitle } />
-        </motion.div>
+            <motion.div variants={ projectVariant } className="relative sm:m-2">
+                <div className={ overlayStyles }>
+                    <p className="text-2xl font-playfair">{ title }</p>
+                    <p className="mt-7 ">{ description }</p>
+                </div>
+                
+                <img className="sm:w-[400px] sm:h-[400px] sm:p-0 sm:max-h-[400px] min-w-full p-1 max-h-[200px] " src={link} alt={ projectTitle } />
+            </motion.div>
     );
 };
 

@@ -39,7 +39,7 @@ const Testimonials = () =>
                         visible: { opacity: 1, scale: 1 }
                     } }>
                     <p className="font-playfair text-6xl">“</p>
-                    <p className="text center text-xl">Made the app at only two weeks</p>
+                    <p className="text center text-xl">Made the website at only two weeks</p>
                 </motion.div>
                 <motion.div
                     className={`bg-red ${testimonialStyles} before:content-person2 before:scale-90`}
@@ -65,7 +65,7 @@ const Testimonials = () =>
                         visible: { opacity: 1, scale: 1 }
                     } }>
                     <p className="font-playfair text-6xl">“</p>
-                    <p className="text center text-xl">I don't remember what she said</p>
+                    <p className="text center text-xl">Very polite and understanding, with affordable price</p>
                 </motion.div>
             </div>
         </section>
