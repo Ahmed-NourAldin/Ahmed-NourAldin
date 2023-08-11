@@ -13,6 +13,7 @@ export default {
         red: "#DC4492",
         yellow: "#FDCC46",
         gray: "#ededed",
+        "royal-blue": "#220558",
         "deep-blue": "#010026",
         "dark-gray": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)"

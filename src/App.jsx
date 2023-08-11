@@ -29,7 +29,7 @@ function App ()
   }, []);
 
   return (
-    <div className='text-white app  flex flex-col flex-wrap'>
+    <div className='text-white app bg-royal-blue flex flex-col flex-wrap'>
       <Navbar isTopOfPage={ isTopOfPage } selectPage={ selectedPage } setSelectedPage={ setSelectedPage } />
       {/* Above Medium Screens */ }
       <div className='w-5/6 mx-auto md:h-full mb-56'>
