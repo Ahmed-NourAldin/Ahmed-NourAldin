@@ -45,7 +45,7 @@ const Landing = ({ setSelectedPage }) =>
                     </p>
 
                     <p className="mt-12 text-sm text-center mb-7 md:text-start">
-                        Crafting captivating Webflow websites, optimizing SEO, and seamless Shopify integration for maximum profitability. Let's elevate your online presence together.
+                    Freelancer Front-end React Engineer and a Web Master(WordPress, Weblfow, Shopify) with UI/UX Design Experience(Figma, Adobe Xd, Photoshop), works with React, React Native, and Tailwind CSS for styling
                     </p>
                 </motion.div>
 

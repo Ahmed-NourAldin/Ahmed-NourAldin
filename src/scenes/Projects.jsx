@@ -7,6 +7,9 @@ import project4 from "../assets/project-4.png";
 import project5 from "../assets/project-5.png";
 import project6 from "../assets/project-6.png";
 import project7 from "../assets/project-7.png";
+import project8 from "../assets/project-8.png";
+import project9 from "../assets/project-9.png";
+import project10 from "../assets/project-10.png";
 
 
 
@@ -78,17 +81,22 @@ const Projects = () =>
                     <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold m-2">
                         BEAUTIFUL USER INTERFACES
                     </div>
-                    <Project title="Project 1" link={project1} description="A test project" />
+                    <Project title="Project 6" link={project6} description="Creative Agency" />
                     <Project title="Project 2" link={project2} description="A Company for Digital Transformation" />
 
                     {/* ROW 2 */ }
-                    <Project title="Project 3" link={project3} description="Trading App" />
+                    <Project title="Project 9" link={project9} description="Security App that I designed and built" />
                     <Project title="Project 4" link={project4} description="E-commerce website for clothes" />
                     <Project title="Project 5" link={project5} description="Band Merchandise website" />
-
+                    
                     {/* ROW 3 */ }
-                    <Project title="Project 6" link={project6} description="Creative Agency" />
-                    <Project title="Project 7" link={project7} description="Security App that I designed" />
+                    <Project title="Project 8" link={project8} description="Traveling website" />
+                    <Project title="Project 3" link={project3} description="Trading App" />
+                    <Project title="Project 10" link={project10} description="A website I design with AI for a charity" />
+
+                    {/* ROW 4 */ }
+                    <Project title="Project 7" link={project7} description="Security App" />
+                    <Project title="Project 1" link={project1} description=" A test project for a job interview" />
                     <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold m-2">
                         SMOOTH USER EXPERIENCE
                     </div>

@@ -25,15 +25,27 @@ const MySkills = () =>
                     </p>
                     <LineGradient width="sm:w-1/3" />
                     <p className="mt-10 mb-7 ">
-                        As an experienced Webflow and Shopify designer, I have a proven track record of crafting captivating websites that leave a lasting impression on visitors. With a keen eye for detail and a passion for user-centric design, I specialize in creating visually stunning and intuitive interfaces that drive engagement and conversions.
-                        <br /><br />
-                        My expertise extends beyond aesthetics; I am well-versed in optimizing SEO strategies to ensure your website ranks higher on search engines and attracts more organic traffic. By leveraging the power of Webflow's flexible design capabilities, I create responsive and mobile-friendly websites that offer a seamless user experience across all devices.
-                        <br /><br />
-                        Additionally, I excel in seamlessly integrating Webflow websites with Shopify stores, providing a smooth and efficient e-commerce solution. Whether you're starting an online store from scratch or looking to enhance an existing one, I can help you achieve maximum profitability and customer satisfaction.
-                        <br /><br />
-                        Throughout my career, I have collaborated with clients from various industries, understanding their unique requirements and translating their visions into digital realities. I prioritize effective communication, ensuring that every step of the design process aligns with your brand identity and business objectives.
-                        <br /><br />
-                        Let's work together to elevate your online presence and take your business to new heights. Whether you need a visually captivating website or a seamless e-commerce platform, I am here to bring your ideas to life. Reach out today, and let's embark on a journey of creating an exceptional digital experience that resonates with your audience and drives success for your business.
+                    Services:<br />
+                    ☑️ UX/UI research & design<br />
+                    ☑️ Frontend development: React.js, Node.js, Typescript, Tailwind<br />
+                    ☑️ Backend development: Python (Django, Flask), Node.js,<br />
+                    ☑️ Mobile app development: React Native<br />
+                    ☑️ WordPress development<br />
+                    ☑️ Webflow with custom coding<br />
+                    ☑️ Shopify with Custom coding
+                    <br /><br />
+
+                    As a seasoned Front-end Developer with extensive experience in building Web and Mobile applications, including E-commerce solutions, I am dedicated to helping clients overcome their digital challenges. With an unwavering focus on client needs, I bring a perfect blend of technical expertise and creative problem-solving skills to every project.
+                    <br />
+                    Throughout my career, I have crafted seamless user experiences that drive engagement and conversions. From intuitive interfaces to responsive designs, I strive to make the digital world an engaging and visually captivating place. My proficiency in HTML, CSS, JavaScript, and various frameworks allows me to turn ideas into reality while ensuring optimal performance and cross-platform compatibility.
+                    <br />
+                    I take pride in delivering high-quality solutions tailored to the unique requirements of each client. My ability to understand business objectives, combined with my attention to detail, ensures that every line of code serves a purpose. I follow industry best practices, adhering to clean coding standards, and employing modern technologies to build robust and scalable applications.
+                    <br />
+                    Whether it's a dynamic e-commerce platform, a user-friendly mobile app, or a captivating website, I am committed to bringing your vision to life. Collaborating closely with clients, I prioritize effective communication to ensure transparency and alignment throughout the development process.
+                    <br />
+                    With a keen eye for design and a passion for innovation, I strive to deliver projects that exceed expectations. I invite you to explore my portfolio website at ahmed-nouraldin.vercel.app to witness the range and quality of my previous work.
+                    <br />
+                    Let's connect and discuss your project requirements. Together, we can embark on a journey of transforming your ideas into a digital masterpiece. Reach out today, and let's create something extraordinary.
                     </p>
                 </motion.div>
                 <div className="mt-16 md:mt-[-20px]">
@@ -66,7 +78,7 @@ const MySkills = () =>
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        In the field for more than 3 years or two.
+                        In the field for more than 3 years.
                     </p>
                 </motion.div>
                 <motion.div
@@ -86,7 +98,7 @@ const MySkills = () =>
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Pretty good at ste.., ahem imitating and coming up with new designs
+                        Pretty good at imitating existing designs and coming up with new ones
                     </p>
                 </motion.div>
                 <motion.div
@@ -106,7 +118,7 @@ const MySkills = () =>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        I'm actually super fast at delivering work, for real this my best treat so far
+                      super fast at delivering work, for real this my best treat so far
                     </p>
                 </motion.div>
             </div>
