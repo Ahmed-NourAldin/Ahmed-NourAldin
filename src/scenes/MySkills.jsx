@@ -8,11 +8,11 @@ const MySkills = () =>
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
-        <section id="skills" className="pt-10 pb-24 bg-transparent">
+        <section id="skills" className="pt-10 pb-24 bg-transparent text-white">
             {/* Header and Image Section */ }
             <div className="md:flex  md:w-full md:gap-16 md:mt-20 md:justify-between">
                 <motion.div
-                    className='md:order-2 md:mt-[-25px]'
+                    className='md:order-2 md:mt-[-25px] text-white'
                     initial="hidden" whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
                     transition={ { duration: 0.5 } }
