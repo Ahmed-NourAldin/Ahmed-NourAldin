@@ -12,8 +12,8 @@ const MySkills = () =>
             {/* Header and Image Section */ }
             <div className="md:flex  md:w-full md:gap-16 md:mt-20 md:justify-between">
                 <motion.div
-                    className='md:order-2 md:mt-[-25px] bg-red text-white'
-                    initial="hidden" whileInView="visible"
+                    className='md:order-2 md:mt-[-25px]  text-white'
+                    initial="visible" whileInView="visible"
                     viewport={ { once: true, amount: 0.5 } }
                     transition={ {delay: 0.2, duration: 0.5 } }
                     variants={ {
